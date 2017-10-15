@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Color Game</title>
+  <link rel="stylesheet" href="colorGame.css">
+</head>
+<body>
+	<div id="container">
+		<h1>
+		Guess This
+		<br>
+		<span id="colorDisplay"></span>
+		<br>
+		Color
+		</h1>
+		<div id="stripe">
+			<button id="reset">new color</button>
+			<span id="msg"></span>
+			<button id="easy">easy</button>
+			<button id="hard" class="selected">hard</button>
+			<button id="activate">Disco</button>
+			<div class="rainbow" id="rain">rainoboow</div>
+			<audio id="discoParty" loop><source src="DiscoPartyTheme.mp3" type="audio/mpeg"></audio>
+		</div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+</body>
+    <script src="colorGame.js"></script>
+</html>
